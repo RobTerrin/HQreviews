@@ -18,15 +18,11 @@
   </url>
   
   <url>
-    <loc>http://gethq.com/Fashion/</loc>
-  </url>
-  
-  <url>
     <loc>http://gethq.com/Audio/</loc>
   </url>
   
   <url>
-    <loc>http://gethq.com/Boxes/</loc>
+    <loc>http://gethq.com/Fashion/</loc>
   </url>
   
   <url>
@@ -38,11 +34,15 @@
   </url>
   
   <url>
-    <loc>http://gethq.com/Food%20&amp;%20Drink/</loc>
+    <loc>http://gethq.com/Boxes/</loc>
   </url>
   
   <url>
-    <loc>http://gethq.com/Household/</loc>
+    <loc>http://gethq.com/Video/</loc>
+  </url>
+  
+  <url>
+    <loc>http://gethq.com/Food%20&amp;%20Drink/</loc>
   </url>
   
   <url>
@@ -50,7 +50,7 @@
   </url>
   
   <url>
-    <loc>http://gethq.com/Video/</loc>
+    <loc>http://gethq.com/Household/</loc>
   </url>
   
 </urlset>
