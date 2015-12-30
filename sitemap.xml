@@ -30,15 +30,11 @@
   </url>
   
   <url>
-    <loc>http://gethq.com/Fitness/</loc>
-  </url>
-  
-  <url>
     <loc>http://gethq.com/Boxes/</loc>
   </url>
   
   <url>
-    <loc>http://gethq.com/Video/</loc>
+    <loc>http://gethq.com/Fitness/</loc>
   </url>
   
   <url>
@@ -46,11 +42,15 @@
   </url>
   
   <url>
-    <loc>http://gethq.com/Wellness/</loc>
+    <loc>http://gethq.com/Household/</loc>
   </url>
   
   <url>
-    <loc>http://gethq.com/Household/</loc>
+    <loc>http://gethq.com/Video/</loc>
+  </url>
+  
+  <url>
+    <loc>http://gethq.com/Wellness/</loc>
   </url>
   
 </urlset>
