@@ -8,7 +8,6 @@ html {
 a {
     color: #000;
     transition-duration: 0.3s;
-    text-decoration: underline;
 }
 
 a:hover {
@@ -69,7 +68,7 @@ kbd {
 }
 
 .masthead-title a {
-    font-family:'Lobster', cursive;
+    font-family:'Caviar dreams';
     text-decoration: none;
 }
 
@@ -255,8 +254,7 @@ ul.post-tags>li>a:hover {
 
 .tag-cloud>ul.post-tags>li>a {
     color: #fff;
-    font-size: 1em;
-    text-decoration: underline;
+    font-size: 5em;
 }
 
 .tag-cloud>ul.post-tags>li>a:hover {
