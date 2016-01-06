@@ -8,7 +8,7 @@
 
 		
 		<meta property="og:type" content="article">
-		<meta property="og:title" content="Netflix Review | hq news">
+		<meta property="og:title" content="Netflix Review | HQ news">
 		<meta property="og:url" content="http://robterrin.com/HQnews/blog/2015/12/30/netflix-review/">
 		<meta property="og:description" content="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&rsquo;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.">
 		
@@ -16,11 +16,11 @@
 		
 
 
-<meta property="og:site_name" content="hq news">
+<meta property="og:site_name" content="HQ news">
 
 <title>
     
-    	Netflix Review | hq news
+    	Netflix Review | HQ news
     
 </title>
 
@@ -43,9 +43,101 @@
 <div class="wrap">
     <div class="masthead">
         
-            <h3 class="masthead-title">
-                <a href="http://robterrin.com/HQnews" title="Home">hq news</a>
-            </h3>
+            <div class="masthead-title">
+                <a href="http://robterrin.com/HQnews" title="Home">HQ news</a>
+                
+                
+
+                <div class="fb-login-button" data-scope="email" onclick="fbStatus();">Connect</div>
+
+
+            </div>
+
+            <script>
+              
+              function statusChangeCallback(response) {
+                console.log('statusChangeCallback');
+                console.log(response);
+                
+                
+                
+                
+                if (response.status === 'connected') {
+                  
+                  testAPI();
+                } else if (response.status === 'not_authorized') {
+                  
+                  document.getElementById('status').innerHTML = 'Please log ' +
+                    'into this app.';
+                } else {
+                  
+                  
+                  document.getElementById('status').innerHTML = 'Please log ' +
+                    'into Facebook.';
+                }
+              }
+
+              
+              
+              
+              function checkLoginState() {
+                FB.getLoginStatus(function(response) {
+                  statusChangeCallback(response);
+                });
+              }
+
+              window.fbAsyncInit = function() {
+              FB.init({
+                appId      : '441574769371870',
+                cookie     : true,  
+                                    
+                xfbml      : true,  
+                version    : 'v2.2' 
+              });
+
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+
+              FB.getLoginStatus(function(response) {
+                statusChangeCallback(response);
+              });
+
+              };
+
+              
+              (function(d, s, id) {
+                var js, fjs = d.getElementsByTagName(s)[0];
+                if (d.getElementById(id)) return;
+                js = d.createElement(s); js.id = id;
+                js.src = "//connect.facebook.net/en_US/sdk.js";
+                fjs.parentNode.insertBefore(js, fjs);
+              }(document, 'script', 'facebook-jssdk'));
+
+              
+              
+              function testAPI() {
+                console.log('Welcome!  Fetching your information.... ');
+                FB.api('/me', function(response) {
+                  console.log('Successful login for: ' + response.name);
+                  document.getElementById('status').innerHTML =
+                    'Thanks for logging in, ' + response.name + '!';
+                });
+              }
+            </script>  
+
+            
+
+            <div id="status">
+            </div>
 
             <a href="http://robterrin.com/HQnews/tags/beauty--personal-care/index.html" class="fixed-link"> Beauty & Personal Care</a>
             <a href="http://robterrin.com/HQnews/tags/edu/index.html" class="fixed-link">Edu</a>

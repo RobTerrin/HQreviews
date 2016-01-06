@@ -63,13 +63,20 @@ kbd {
 }
 
 .masthead-title {
-    font-size: 1.5em;
+    font-size: 1.75em;
     margin-bottom: 20px;
+    width: 80%;
+    margin-left: 15%;
 }
 
 .masthead-title a {
     font-family:'Caviar dreams';
     text-decoration: none;
+
+}
+
+.fb-login-button {
+    float:right;
 }
 
 a.fixed-link {
