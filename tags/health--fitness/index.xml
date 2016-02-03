@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>HQ news </title>
-    <link>http://robterrin.com/HQnews/tags/health--fitness/</link>
+    <title>HQ reviews </title>
+    <link>http://localhost:1313/HQreviews/tags/health--fitness/</link>
     <language>en-us</language>
     <author>Abigail, Rob &amp; Omar</author>
     <rights>(C) 2015</rights>
@@ -12,10 +12,10 @@
       
         <item>
           <title>Welcome!</title>
-          <link>http://robterrin.com/HQnews/blog/2015/12/29/welcome/</link>
+          <link>http://localhost:1313/HQreviews/blog/2015/12/29/welcome/</link>
           <pubDate>Tue, 29 Dec 2015 00:00:00 UTC</pubDate>
           <author>Abigail, Rob &amp; Omar</author>
-          <guid>http://robterrin.com/HQnews/blog/2015/12/29/welcome/</guid>
+          <guid>http://localhost:1313/HQreviews/blog/2015/12/29/welcome/</guid>
           <description>&lt;p&gt;HQ news, your headquarters for everything subscriptions. Review, discover and share subscription services. How do you get the the most out of your experiences, time and money? Join Abigail, Rob and Omar in automating tedious tasks so you can make the most of your free time!&lt;/p&gt;
 </description>
         </item>

@@ -2,18 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://robterrin.com/HQnews/</loc>
+    <loc>http://localhost:1313/HQreviews/</loc>
     <lastmod>2015-12-30T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://robterrin.com/HQnews/blog/2015/12/30/netflix-review/</loc>
+    <loc>http://localhost:1313/HQreviews/blog/2015/12/30/netflix-review/</loc>
     <lastmod>2015-12-30T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://robterrin.com/HQnews/blog/2015/12/29/welcome/</loc>
+    <loc>http://localhost:1313/HQreviews/blog/2015/12/29/welcome/</loc>
     <lastmod>2015-12-29T00:00:00+00:00</lastmod>
   </url>
   
